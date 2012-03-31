@@ -1,0 +1,31 @@
+TTeast
+v7
+r1
+
+N/Users/adrobnych/Documents/PeepNews/build/Debug/Teast.octest
+t2
+s0
+
+N/Users/adrobnych/Documents/PeepNews/build/Debug/Teast.octest/Contents/Info.plist
+t2
+s0
+
+N/Users/adrobnych/Documents/PeepNews/build/PeepNews.build/Debug/Teast.build/Script-386E6A51151A7BD300ED0AC0.sh
+c00000000000000000000000000000000
+t2
+s0
+
+NTeast-Info.plist
+c000000004F6A445300000000000002BC
+t1332364371
+s700
+
+CPhaseScriptExecution "Run Script" /Users/adrobnych/Documents/PeepNews/build/PeepNews.build/Debug/Teast.build/Script-386E6A51151A7BD300ED0AC0.sh
+r0
+
+CProcessInfoPlistFile /Users/adrobnych/Documents/PeepNews/build/Debug/Teast.octest/Contents/Info.plist Teast-Info.plist
+r0
+
+CTouch /Users/adrobnych/Documents/PeepNews/build/Debug/Teast.octest
+r0
+
