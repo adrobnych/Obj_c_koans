@@ -17,7 +17,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					520,
+					374,
 					20,
 					48,
 					43,
@@ -55,7 +55,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					301,
+					334,
 					60,
 					20,
 					48,
@@ -72,22 +72,142 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 354916351;
-			PBXWorkspaceStateSaveDate = 354916351;
+			PBXPerProjectTemplateStateSaveDate = 354982295;
+			PBXWorkspaceStateSaveDate = 354982295;
 		};
 		perUserProjectItems = {
+			3867983A152899910028A9B9 = 3867983A152899910028A9B9 /* PBXTextBookmark */;
+			3867983B152899910028A9B9 = 3867983B152899910028A9B9 /* PBXTextBookmark */;
+			3867983C152899910028A9B9 = 3867983C152899910028A9B9 /* PBXTextBookmark */;
+			3867983E152899910028A9B9 = 3867983E152899910028A9B9 /* PBXTextBookmark */;
+			38679840152899910028A9B9 = 38679840152899910028A9B9 /* PBXTextBookmark */;
+			38679841152899910028A9B9 = 38679841152899910028A9B9 /* PBXTextBookmark */;
+			38679843152899910028A9B9 = 38679843152899910028A9B9 /* PBXTextBookmark */;
+			38679845152899910028A9B9 = 38679845152899910028A9B9 /* PBXTextBookmark */;
 			3867E346152096F300E14076 = 3867E346152096F300E14076 /* PBXTextBookmark */;
-			3867E347152096F300E14076 = 3867E347152096F300E14076 /* PBXTextBookmark */;
-			3867E348152096F300E14076 = 3867E348152096F300E14076 /* PBXTextBookmark */;
-			3867E3561520977D00E14076 = 3867E3561520977D00E14076 /* PBXTextBookmark */;
-			386E900615277FE10015EE24 = 386E900615277FE10015EE24 /* PBXTextBookmark */;
-			386E900715277FE10015EE24 = 386E900715277FE10015EE24 /* PBXTextBookmark */;
-			386E900D152780380015EE24 = 386E900D152780380015EE24 /* PBXTextBookmark */;
-			386FCE95152790C500202DB3 = 386FCE95152790C500202DB3 /* PBXTextBookmark */;
-			38733C491524C366008ED47C = 38733C491524C366008ED47C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 386E6A49151A7A9100ED0AC0 /* Source Control */;
 		userBuildSettings = {
+		};
+	};
+	3867983A152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3867E2FE151BB99500E14076 /* Car.m */;
+		name = "Car.m: 20";
+		rLen = 0;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	3867983B152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 386E6A66151A7EAA00ED0AC0 /* SyntaxTest.h */;
+		name = "SyntaxTest.h: 9";
+		rLen = 13;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	3867983C152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3867983D152899910028A9B9 /* NSInvocation_SenTesting.h */;
+		name = "NSInvocation_SenTesting.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1580;
+		vrLoc = 0;
+	};
+	3867983D152899910028A9B9 /* NSInvocation_SenTesting.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSInvocation_SenTesting.h;
+		path = /Developer/Library/Frameworks/SenTestingKit.framework/Headers/NSInvocation_SenTesting.h;
+		sourceTree = "<absolute>";
+	};
+	3867983E152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3867983F152899910028A9B9 /* SenTestDefines.h */;
+		name = "SenTestDefines.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1571;
+		vrLoc = 0;
+	};
+	3867983F152899910028A9B9 /* SenTestDefines.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SenTestDefines.h;
+		path = /Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDefines.h;
+		sourceTree = "<absolute>";
+	};
+	38679840152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 386E6A67151A7EAA00ED0AC0 /* SyntaxTest.m */;
+		name = "SyntaxTest.m: 70";
+		rLen = 0;
+		rLoc = 1558;
+		rType = 0;
+		vrLen = 762;
+		vrLoc = 894;
+	};
+	38679841152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38679842152899910028A9B9 /* SenTest.h */;
+		name = "SenTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 0;
+	};
+	38679842152899910028A9B9 /* SenTest.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SenTest.h;
+		path = /Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTest.h;
+		sourceTree = "<absolute>";
+	};
+	38679843152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38679844152899910028A9B9 /* SenTestCase.h */;
+		name = "SenTestCase.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1569;
+		vrLoc = 0;
+	};
+	38679844152899910028A9B9 /* SenTestCase.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SenTestCase.h;
+		path = /Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase.h;
+		sourceTree = "<absolute>";
+	};
+	38679845152899910028A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 38679846152899910028A9B9 /* SenTestCase.h */;
+		name = "SenTestCase.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1569;
+		vrLoc = 0;
+	};
+	38679846152899910028A9B9 /* SenTestCase.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SenTestCase.h;
+		path = /Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 2028}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1565}";
 		};
 	};
 	3867E2FD151BB99500E14076 /* Car.h */ = {
@@ -113,36 +233,6 @@
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
-	};
-	3867E347152096F300E14076 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 386E6A66151A7EAA00ED0AC0 /* SyntaxTest.h */;
-		name = "SyntaxTest.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 232;
-		vrLoc = 0;
-	};
-	3867E348152096F300E14076 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 386E6A67151A7EAA00ED0AC0 /* SyntaxTest.m */;
-		name = "SyntaxTest.m: 47";
-		rLen = 0;
-		rLoc = 863;
-		rType = 0;
-		vrLen = 582;
-		vrLoc = 287;
-	};
-	3867E3561520977D00E14076 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3867E2FE151BB99500E14076 /* Car.m */;
-		name = "Car.m: 20";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 318;
-		vrLoc = 135;
 	};
 	386E6A43151A7A7200ED0AC0 /* PeepNews */ = {
 		isa = PBXExecutable;
@@ -190,66 +280,19 @@
 	};
 	386E6A66151A7EAA00ED0AC0 /* SyntaxTest.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {698, 368}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {552, 350}}";
+			sepNavSelRange = "{166, 13}";
 			sepNavVisRange = "{0, 232}";
+			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
 		};
 	};
 	386E6A67151A7EAA00ED0AC0 /* SyntaxTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {698, 871}}";
-			sepNavSelRange = "{1086, 0}";
-			sepNavVisRange = "{512, 787}";
+			sepNavIntBoundsRect = "{{0, 0}, {698, 988}}";
+			sepNavSelRange = "{1629, 0}";
+			sepNavVisRange = "{696, 960}";
 			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
 		};
-	};
-	386E900615277FE10015EE24 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'NString' undeclared (first use in this function)";
-		fRef = 386E6A67151A7EAA00ED0AC0 /* SyntaxTest.m */;
-		rLen = 1;
-		rLoc = 62;
-		rType = 1;
-	};
-	386E900715277FE10015EE24 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 386E6A67151A7EAA00ED0AC0 /* SyntaxTest.m */;
-		name = "SyntaxTest.m: 61";
-		rLen = 0;
-		rLoc = 1219;
-		rType = 0;
-		vrLen = 569;
-		vrLoc = 681;
-	};
-	386E900D152780380015EE24 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 386E6A67151A7EAA00ED0AC0 /* SyntaxTest.m */;
-		name = "SyntaxTest.m: 61";
-		rLen = 0;
-		rLoc = 1219;
-		rType = 0;
-		vrLen = 569;
-		vrLoc = 681;
-	};
-	386FCE95152790C500202DB3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3867E2FE151BB99500E14076 /* Car.m */;
-		name = "Car.m: 20";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 357;
-		vrLoc = 0;
-	};
-	38733C491524C366008ED47C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3867E2FE151BB99500E14076 /* Car.m */;
-		name = "Car.m: 20";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 357;
-		vrLoc = 0;
 	};
 	8DD76F960486AA7600D96B5E /* PeepNews */ = {
 		activeExec = 0;

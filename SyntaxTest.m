@@ -53,16 +53,26 @@
 	Car* car = [[Car alloc] init];
 	STAssertTrue(@"NA" == car.brand, @"initializing error: brand");
 	Car* reservedRef = [car retain];
-	STAssertTrue(reservedRef.retainCount == 2, @"dealloc should release object from memory");
+	STAssertTrue([reservedRef retainCount] == 2, @"dealloc should release object from memory");
 	[car release]; // don't call dealloc!
-	STAssertTrue(reservedRef.retainCount == 1, @"dealloc should release object from memory");
+	STAssertTrue([reservedRef retainCount] == 1, @"dealloc should release object from memory");
+	[reservedRef release];
 }
 
 -(void) testMemoryMngmnt
 {
 	NSString* string_one = [[NSString alloc] initWithString:@"Hello"];
 	STAssertTrue(string_one == @"Hello", @"alloc should create brand new object (one reference)");
-	
+	[string_one release];
+}
+
+-(void) testInspectingObjects
+{
+	Car* car = [[Car alloc] init];
+	NSString* className = NSStringFromClass([car class]);
+	STAssertTrue ([className isEqualToString:@"Car"], @"expected 'Car' but received '%@'",  className);
+	[car release];
+	//lessons learned: don't use ':' symbol in asserting message
 }
 
 @end
