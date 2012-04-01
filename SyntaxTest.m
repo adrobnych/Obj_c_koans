@@ -75,4 +75,11 @@
 	//lessons learned: don't use ':' symbol in asserting message
 }
 
+-(void) testNil
+{
+	Car* car = nil;
+	NSString* brand = car.brand;
+	STAssertNil (brand, @"expected nil but received %@",  brand);
+}
+
 @end
