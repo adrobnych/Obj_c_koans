@@ -37,7 +37,7 @@
 	Car* car = [[Car alloc] init];
 	car.brand = @"KIA";
 	STAssertTrue(@"KIA" == car.brand, @"setter and getter sugar test failed");
-	
+	[car release];
 }
 
 - (void) testInit
@@ -45,15 +45,17 @@
 	Car* car = [[Car alloc] init];
 	STAssertTrue(@"NA" == car.brand, @"initializing error: brand");
 	STAssertTrue(@"NA" == car.model, @"initializing error: model");
-	
+	[car release];
 }
 
 -(void) testDealloc
 {
 	Car* car = [[Car alloc] init];
 	STAssertTrue(@"NA" == car.brand, @"initializing error: brand");
-	[car dealloc];
-	STAssertTrue([car description] == @"smth", @"dealloc should release object from memory");
+	Car* reservedRef = [car retain];
+	STAssertTrue(reservedRef.retainCount == 2, @"dealloc should release object from memory");
+	[car release]; // don't call dealloc!
+	STAssertTrue(reservedRef.retainCount == 1, @"dealloc should release object from memory");
 }
 
 -(void) testMemoryMngmnt
